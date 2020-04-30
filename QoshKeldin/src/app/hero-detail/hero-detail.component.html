@@ -1,0 +1,10 @@
+<div *ngIf="hero">
+  <button (click)="goBack()">go back</button>
+  <h2>{{hero.name | uppercase}}</h2>
+
+  <div><span></span>{{hero.description}}</div>
+  <div class = "img"><img src = {{hero.image}}></div>
+  <div><span>This university's website:</span>
+    <div><a href = {{hero.url}}>K.B.T.U.</a></div>
+  </div>
+</div>
